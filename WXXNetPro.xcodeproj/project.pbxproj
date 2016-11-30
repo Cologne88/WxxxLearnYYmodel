@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B262BE1D1D7F941800542456 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B262BE1C1D7F941800542456 /* main.m */; };
+		B262BE201D7F941800542456 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B262BE1F1D7F941800542456 /* AppDelegate.m */; };
+		B262BE231D7F941800542456 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B262BE221D7F941800542456 /* ViewController.m */; };
+		B262BE261D7F941800542456 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B262BE241D7F941800542456 /* Main.storyboard */; };
+		B262BE291D7F941800542456 /* WXXNetPro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B262BE271D7F941800542456 /* WXXNetPro.xcdatamodeld */; };
+		B262BE2B1D7F941800542456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B262BE2A1D7F941800542456 /* Assets.xcassets */; };
+		B262BE2E1D7F941800542456 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B262BE2C1D7F941800542456 /* LaunchScreen.storyboard */; };
+		B262BE431D7F96E700542456 /* WXXSessionNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = B262BE421D7F96E700542456 /* WXXSessionNetWorking.m */; };
+		B263285B1D7FEE1A00FB441D /* WXXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B263285A1D7FEE1A00FB441D /* WXXTabBarController.m */; };
+		B263285E1D7FEEF400FB441D /* WXXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B263285D1D7FEEF400FB441D /* WXXNavigationController.m */; };
+		B26328651D8000C200FB441D /* WXXCalcuter.m in Sources */ = {isa = PBXBuildFile; fileRef = B26328641D8000C200FB441D /* WXXCalcuter.m */; };
+		B26328681D802A7C00FB441D /* WXXCacuterController.m in Sources */ = {isa = PBXBuildFile; fileRef = B26328671D802A7C00FB441D /* WXXCacuterController.m */; };
+		B27A0CD11DE1FB7500078450 /* WXXYYmodelController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A0CD01DE1FB7500078450 /* WXXYYmodelController.m */; };
+		B27A0CD41DE1FF0900078450 /* WXXYYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A0CD31DE1FF0900078450 /* WXXYYModel.m */; };
+		B27A0CD71DE2B1ED00078450 /* WXXListController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A0CD61DE2B1ED00078450 /* WXXListController.m */; };
+		B27BF6661D93D78400BC375C /* WXXBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B27BF6651D93D78400BC375C /* WXXBaseModel.m */; };
+		B27BF6691D93DE7200BC375C /* WXXModelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B27BF6681D93DE7200BC375C /* WXXModelTest.m */; };
+		B27BF66C1D93DEF400BC375C /* WXXModelTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27BF66B1D93DEF400BC375C /* WXXModelTestController.m */; };
+		C3563D3BC12D4FCB4FB5F2CF /* libPods-WXXNetPro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F300F1A120A486B2EFEAFE01 /* libPods-WXXNetPro.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5935E4EB0D4B5353EDE22627 /* Pods-WXXNetPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXXNetPro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WXXNetPro/Pods-WXXNetPro.debug.xcconfig"; sourceTree = "<group>"; };
+		978A8E6BF14D05E630D30FDF /* Pods-WXXNetPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXXNetPro.release.xcconfig"; path = "Pods/Target Support Files/Pods-WXXNetPro/Pods-WXXNetPro.release.xcconfig"; sourceTree = "<group>"; };
+		B262BE181D7F941800542456 /* WXXNetPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXXNetPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B262BE1C1D7F941800542456 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B262BE1E1D7F941800542456 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B262BE1F1D7F941800542456 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B262BE211D7F941800542456 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B262BE221D7F941800542456 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B262BE251D7F941800542456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B262BE281D7F941800542456 /* WXXNetPro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WXXNetPro.xcdatamodel; sourceTree = "<group>"; };
+		B262BE2A1D7F941800542456 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B262BE2D1D7F941800542456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B262BE2F1D7F941800542456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B262BE411D7F96E700542456 /* WXXSessionNetWorking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXXSessionNetWorking.h; sourceTree = "<group>"; };
+		B262BE421D7F96E700542456 /* WXXSessionNetWorking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXXSessionNetWorking.m; sourceTree = "<group>"; };
+		B26328591D7FEE1A00FB441D /* WXXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXXTabBarController.h; sourceTree = "<group>"; };
+		B263285A1D7FEE1A00FB441D /* WXXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXXTabBarController.m; sourceTree = "<group>"; };
+		B263285C1D7FEEF400FB441D /* WXXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXXNavigationController.h; sourceTree = "<group>"; };
+		B263285D1D7FEEF400FB441D /* WXXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXXNavigationController.m; sourceTree = "<group>"; };
+		B26328631D8000C200FB441D /* WXXCalcuter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXXCalcuter.h; sourceTree = "<group>"; };
+		B26328641D8000C200FB441D /* WXXCalcuter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXXCalcuter.m; sourceTree = "<group>"; };
+		B26328661D802A7C00FB441D /* WXXCacuterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXXCacuterController.h; sourceTree = "<group>"; };
+		B26328671D802A7C00FB441D /* WXXCacuterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXXCacuterController.m; sourceTree = "<group>"; };
+		B27A0CCF1DE1FB7500078450 /* WXXYYmodelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WXXYYmodelController.h; path = YYModelTest/WXXYYmodelController.h; sourceTree = "<group>"; };
+		B27A0CD01DE1FB7500078450 /* WXXYYmodelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WXXYYmodelController.m; path = YYModelTest/WXXYYmodelController.m; sourceTree = "<group>"; };
+		B27A0CD21DE1FF0900078450 /* WXXYYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WXXYYModel.h; path = YYModelTest/WXXYYModel.h; sourceTree = "<group>"; };
+		B27A0CD31DE1FF0900078450 /* WXXYYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WXXYYModel.m; path = YYModelTest/WXXYYModel.m; sourceTree = "<group>"; };
+		B27A0CD51DE2B1ED00078450 /* WXXListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WXXListController.h; path = YYModelTest/WXXListController.h; sourceTree = "<group>"; };
+		B27A0CD61DE2B1ED00078450 /* WXXListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WXXListController.m; path = YYModelTest/WXXListController.m; sourceTree = "<group>"; };
+		B27BF6641D93D78400BC375C /* WXXBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXXBaseModel.h; sourceTree = "<group>"; };
+		B27BF6651D93D78400BC375C /* WXXBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXXBaseModel.m; sourceTree = "<group>"; };
+		B27BF6671D93DE7200BC375C /* WXXModelTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXXModelTest.h; sourceTree = "<group>"; };
+		B27BF6681D93DE7200BC375C /* WXXModelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXXModelTest.m; sourceTree = "<group>"; };
+		B27BF66A1D93DEF400BC375C /* WXXModelTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXXModelTestController.h; sourceTree = "<group>"; };
+		B27BF66B1D93DEF400BC375C /* WXXModelTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXXModelTestController.m; sourceTree = "<group>"; };
+		F300F1A120A486B2EFEAFE01 /* libPods-WXXNetPro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WXXNetPro.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B262BE151D7F941800542456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3563D3BC12D4FCB4FB5F2CF /* libPods-WXXNetPro.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7676C762D229920556B9DF64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F300F1A120A486B2EFEAFE01 /* libPods-WXXNetPro.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B262BE0F1D7F941800542456 = {
+			isa = PBXGroup;
+			children = (
+				B262BE1A1D7F941800542456 /* WXXNetPro */,
+				B262BE191D7F941800542456 /* Products */,
+				F19BF5AF88155E412C4AEFB6 /* Pods */,
+				7676C762D229920556B9DF64 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B262BE191D7F941800542456 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B262BE181D7F941800542456 /* WXXNetPro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B262BE1A1D7F941800542456 /* WXXNetPro */ = {
+			isa = PBXGroup;
+			children = (
+				B262BE391D7F968400542456 /* WXXClasses */,
+				B262BE1E1D7F941800542456 /* AppDelegate.h */,
+				B262BE1F1D7F941800542456 /* AppDelegate.m */,
+				B262BE211D7F941800542456 /* ViewController.h */,
+				B262BE221D7F941800542456 /* ViewController.m */,
+				B262BE241D7F941800542456 /* Main.storyboard */,
+				B262BE2A1D7F941800542456 /* Assets.xcassets */,
+				B262BE2C1D7F941800542456 /* LaunchScreen.storyboard */,
+				B262BE2F1D7F941800542456 /* Info.plist */,
+				B262BE271D7F941800542456 /* WXXNetPro.xcdatamodeld */,
+				B262BE1B1D7F941800542456 /* Supporting Files */,
+			);
+			path = WXXNetPro;
+			sourceTree = "<group>";
+		};
+		B262BE1B1D7F941800542456 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B262BE1C1D7F941800542456 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B262BE391D7F968400542456 /* WXXClasses */ = {
+			isa = PBXGroup;
+			children = (
+				B262BE3A1D7F968400542456 /* WXXCategory */,
+				B262BE3B1D7F968400542456 /* WXXItems */,
+				B262BE3C1D7F968400542456 /* WXXMain */,
+				B262BE401D7F968400542456 /* WXXRootObject */,
+			);
+			path = WXXClasses;
+			sourceTree = "<group>";
+		};
+		B262BE3A1D7F968400542456 /* WXXCategory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WXXCategory;
+			sourceTree = "<group>";
+		};
+		B262BE3B1D7F968400542456 /* WXXItems */ = {
+			isa = PBXGroup;
+			children = (
+				B27A0CCE1DE1F89A00078450 /* YYModelTest */,
+				B27BF6631D93D74000BC375C /* BaseModelTest */,
+				B26328621D8000C200FB441D /* CaclcuterTest */,
+			);
+			path = WXXItems;
+			sourceTree = "<group>";
+		};
+		B262BE3C1D7F968400542456 /* WXXMain */ = {
+			isa = PBXGroup;
+			children = (
+				B262BE3D1D7F968400542456 /* WXXNavigation */,
+				B262BE3E1D7F968400542456 /* WXXTabBar */,
+				B262BE3F1D7F968400542456 /* WXXTools */,
+			);
+			path = WXXMain;
+			sourceTree = "<group>";
+		};
+		B262BE3D1D7F968400542456 /* WXXNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				B263285C1D7FEEF400FB441D /* WXXNavigationController.h */,
+				B263285D1D7FEEF400FB441D /* WXXNavigationController.m */,
+			);
+			path = WXXNavigation;
+			sourceTree = "<group>";
+		};
+		B262BE3E1D7F968400542456 /* WXXTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				B26328591D7FEE1A00FB441D /* WXXTabBarController.h */,
+				B263285A1D7FEE1A00FB441D /* WXXTabBarController.m */,
+			);
+			path = WXXTabBar;
+			sourceTree = "<group>";
+		};
+		B262BE3F1D7F968400542456 /* WXXTools */ = {
+			isa = PBXGroup;
+			children = (
+				B262BE411D7F96E700542456 /* WXXSessionNetWorking.h */,
+				B262BE421D7F96E700542456 /* WXXSessionNetWorking.m */,
+			);
+			path = WXXTools;
+			sourceTree = "<group>";
+		};
+		B262BE401D7F968400542456 /* WXXRootObject */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WXXRootObject;
+			sourceTree = "<group>";
+		};
+		B26328621D8000C200FB441D /* CaclcuterTest */ = {
+			isa = PBXGroup;
+			children = (
+				B26328631D8000C200FB441D /* WXXCalcuter.h */,
+				B26328641D8000C200FB441D /* WXXCalcuter.m */,
+				B26328661D802A7C00FB441D /* WXXCacuterController.h */,
+				B26328671D802A7C00FB441D /* WXXCacuterController.m */,
+			);
+			path = CaclcuterTest;
+			sourceTree = "<group>";
+		};
+		B27A0CCE1DE1F89A00078450 /* YYModelTest */ = {
+			isa = PBXGroup;
+			children = (
+				B27A0CCF1DE1FB7500078450 /* WXXYYmodelController.h */,
+				B27A0CD01DE1FB7500078450 /* WXXYYmodelController.m */,
+				B27A0CD21DE1FF0900078450 /* WXXYYModel.h */,
+				B27A0CD31DE1FF0900078450 /* WXXYYModel.m */,
+				B27A0CD51DE2B1ED00078450 /* WXXListController.h */,
+				B27A0CD61DE2B1ED00078450 /* WXXListController.m */,
+			);
+			name = YYModelTest;
+			sourceTree = "<group>";
+		};
+		B27BF6631D93D74000BC375C /* BaseModelTest */ = {
+			isa = PBXGroup;
+			children = (
+				B27BF6641D93D78400BC375C /* WXXBaseModel.h */,
+				B27BF6651D93D78400BC375C /* WXXBaseModel.m */,
+				B27BF6671D93DE7200BC375C /* WXXModelTest.h */,
+				B27BF6681D93DE7200BC375C /* WXXModelTest.m */,
+				B27BF66A1D93DEF400BC375C /* WXXModelTestController.h */,
+				B27BF66B1D93DEF400BC375C /* WXXModelTestController.m */,
+			);
+			path = BaseModelTest;
+			sourceTree = "<group>";
+		};
+		F19BF5AF88155E412C4AEFB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5935E4EB0D4B5353EDE22627 /* Pods-WXXNetPro.debug.xcconfig */,
+				978A8E6BF14D05E630D30FDF /* Pods-WXXNetPro.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B262BE171D7F941800542456 /* WXXNetPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B262BE321D7F941800542456 /* Build configuration list for PBXNativeTarget "WXXNetPro" */;
+			buildPhases = (
+				F95BBE48783D178B9A66BA1C /* [CP] Check Pods Manifest.lock */,
+				B262BE141D7F941800542456 /* Sources */,
+				B262BE151D7F941800542456 /* Frameworks */,
+				B262BE161D7F941800542456 /* Resources */,
+				9EF4C8CEAA30F071AEDB9836 /* [CP] Embed Pods Frameworks */,
+				956E307A8F3A13ABE71BEB7C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WXXNetPro;
+			productName = WXXNetPro;
+			productReference = B262BE181D7F941800542456 /* WXXNetPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B262BE101D7F941800542456 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = WxxxYi;
+				TargetAttributes = {
+					B262BE171D7F941800542456 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = UHCLK74DHB;
+					};
+				};
+			};
+			buildConfigurationList = B262BE131D7F941800542456 /* Build configuration list for PBXProject "WXXNetPro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B262BE0F1D7F941800542456;
+			productRefGroup = B262BE191D7F941800542456 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B262BE171D7F941800542456 /* WXXNetPro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B262BE161D7F941800542456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B262BE2E1D7F941800542456 /* LaunchScreen.storyboard in Resources */,
+				B262BE2B1D7F941800542456 /* Assets.xcassets in Resources */,
+				B262BE261D7F941800542456 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		956E307A8F3A13ABE71BEB7C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WXXNetPro/Pods-WXXNetPro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EF4C8CEAA30F071AEDB9836 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WXXNetPro/Pods-WXXNetPro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F95BBE48783D178B9A66BA1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B262BE141D7F941800542456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26328681D802A7C00FB441D /* WXXCacuterController.m in Sources */,
+				B262BE231D7F941800542456 /* ViewController.m in Sources */,
+				B263285E1D7FEEF400FB441D /* WXXNavigationController.m in Sources */,
+				B27BF66C1D93DEF400BC375C /* WXXModelTestController.m in Sources */,
+				B26328651D8000C200FB441D /* WXXCalcuter.m in Sources */,
+				B262BE291D7F941800542456 /* WXXNetPro.xcdatamodeld in Sources */,
+				B262BE431D7F96E700542456 /* WXXSessionNetWorking.m in Sources */,
+				B27A0CD71DE2B1ED00078450 /* WXXListController.m in Sources */,
+				B27A0CD41DE1FF0900078450 /* WXXYYModel.m in Sources */,
+				B262BE201D7F941800542456 /* AppDelegate.m in Sources */,
+				B262BE1D1D7F941800542456 /* main.m in Sources */,
+				B27BF6661D93D78400BC375C /* WXXBaseModel.m in Sources */,
+				B27BF6691D93DE7200BC375C /* WXXModelTest.m in Sources */,
+				B263285B1D7FEE1A00FB441D /* WXXTabBarController.m in Sources */,
+				B27A0CD11DE1FB7500078450 /* WXXYYmodelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B262BE241D7F941800542456 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B262BE251D7F941800542456 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B262BE2C1D7F941800542456 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B262BE2D1D7F941800542456 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B262BE301D7F941800542456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B262BE311D7F941800542456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B262BE331D7F941800542456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5935E4EB0D4B5353EDE22627 /* Pods-WXXNetPro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UHCLK74DHB;
+				INFOPLIST_FILE = WXXNetPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WxxxYi.WXXNetPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B262BE341D7F941800542456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 978A8E6BF14D05E630D30FDF /* Pods-WXXNetPro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UHCLK74DHB;
+				INFOPLIST_FILE = WXXNetPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WxxxYi.WXXNetPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B262BE131D7F941800542456 /* Build configuration list for PBXProject "WXXNetPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B262BE301D7F941800542456 /* Debug */,
+				B262BE311D7F941800542456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B262BE321D7F941800542456 /* Build configuration list for PBXNativeTarget "WXXNetPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B262BE331D7F941800542456 /* Debug */,
+				B262BE341D7F941800542456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B262BE271D7F941800542456 /* WXXNetPro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B262BE281D7F941800542456 /* WXXNetPro.xcdatamodel */,
+			);
+			currentVersion = B262BE281D7F941800542456 /* WXXNetPro.xcdatamodel */;
+			path = WXXNetPro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B262BE101D7F941800542456 /* Project object */;
+}
